@@ -1,3 +1,10 @@
+<?php
+/**
+ * El siguiente archivo PHP se encarga de mostrar el formulario de registro de bodegas
+ * y la tabla de bodegas existentes.
+ */
+?>
+
 <link rel="stylesheet" href="estilos/estilos.css">
 
 <h1>Sistema registro de bodegas</h1>
