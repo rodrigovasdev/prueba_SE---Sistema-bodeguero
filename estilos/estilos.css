@@ -1,0 +1,107 @@
+/* =============================================
+   estilos.css - Sistema registro de bodegas
+   ============================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+#formNuevaBodega {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px 30px;
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+}
+
+#formNuevaBodega label {
+    display: inline-block;
+    width: 90px;
+    font-weight: bold;
+}
+
+#formNuevaBodega input[type="text"],
+#formNuevaBodega input[type="number"],
+#formNuevaBodega select:not(#encargados) {
+    width: 80%;
+    padding: 4px 6px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+#formNuevaBodega select#encargados {
+    width: 100%;
+    padding: 4px 6px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+#formNuevaBodega button[type="submit"] {
+    display: block;
+    margin: 10px auto 0 auto;
+    padding: 6px 24px;
+    cursor: pointer;
+}
+
+#tablaBodegas {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#tablaBodegas th {
+    border: 1px solid #ccc;
+    padding: 7px 12px;
+    text-align: center;
+}
+
+#tablaBodegas td {
+    border: 1px solid #ccc;
+    padding: 7px 12px;
+    text-align: left;
+}
+
+#tablaBodegas thead th {
+    background-color: #e8e8e8;
+    font-weight: bold;
+}
+
+#tablaBodegas tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+#filtroEstado {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn-modificar,
+.btn-eliminar {
+    padding: 6px 24px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font: inherit;
+}
+
+.btn-modificar {
+    background-color: #4caf50;
+    border-color: #388e3c;
+    color: #fff;
+}
+
+.btn-eliminar {
+    background-color: #e53935;
+    border-color: #b71c1c;
+    color: #fff;
+}
